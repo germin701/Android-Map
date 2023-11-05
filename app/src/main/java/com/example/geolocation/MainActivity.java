@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
     }*/
 
     public void openMap(View v) {
-        double Lat = 5.3416038;
+        /*double Lat = 5.3416038;
         double Long = 100.2792958;
-        String locationName = editText.getText().toString();
+        String locationName = editText.getText().toString();*/
         Log.i("tag", doubleLat + "," + doubleLong);
         Intent intent = new Intent(Intent.ACTION_VIEW);
         Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(editText.getText().toString()));
